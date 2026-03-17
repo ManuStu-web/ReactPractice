@@ -1,0 +1,23 @@
+import React from 'react'
+
+const RightCardContent = (props) => {
+  return (
+    <div className='absolute top-0 left-0 h-full w-full p-8 flex flex-col justify-between z-20'>
+      <h2 className='bg-white text-xl font-semibold rounded-full h-8 w-8 flex justify-center items-center '>{props.index + 1}</h2>
+      <div>
+
+        <p className='text-white leading-normal mb-10 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus eveniet sequi, nostrum vel minus.</p>
+
+
+        <div className='flex justify-between Z-1 relative'>
+          <button className='text-white font-medium px-8 py-2 rounded-full bg-blue-500'>{props.tag}</button>
+          <button className='text-white font-medium px-4 py-2 rounded-full bg-blue-500'><i className="ri-arrow-right-long-line"></i></button>
+        </div>
+
+      </div>
+
+    </div>
+  )
+}
+
+export default RightCardContent
