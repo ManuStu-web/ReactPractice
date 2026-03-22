@@ -1,16 +1,75 @@
-# React + Vite
+# 📝 Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean Notes App built with **React** and **Vite**, allowing users to create and delete notes with a heading and description.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View on GitHub](https://github.com/ManuStu-web/ReactPractice/tree/main/NotesApp)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Add notes with a **heading** and **description**
+- Delete individual notes
+- Responsive layout (side-by-side on desktop, stacked on mobile)
+- Sticky note style UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** - UI library
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **Lucide React** - Icons
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+
+Make sure you have **Node.js** installed.
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ManuStu-web/ReactPractice.git
+
+# Navigate to the NotesApp folder
+cd ReactPractice/NotesApp
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 📁 Project Structure
+
+```
+NotesApp/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx       # Main component
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🙋‍♂️ Author
+
+**ManuStu-web** — [GitHub Profile](https://github.com/ManuStu-web)
